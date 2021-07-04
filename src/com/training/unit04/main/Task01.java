@@ -11,9 +11,9 @@ public class Task01 {
 		int nok = kratnoe(a,b,nod);;
 											
 		System.out.print("a = " + a + "\n"
-						+"b = " + b + "\n"
-						+"ÍÎÄ = " + nod + "\n"
-						+"ÍÎÊ = " + nok + "\n");
+				+"b = " + b + "\n"
+				+"ÐÐžÐ” = " + nod + "\n"
+				+"ÐÐžÐš = " + nok + "\n");
 	}
 		
 		  public static int evclid(int a, int b) {
@@ -22,13 +22,13 @@ public class Task01 {
 		      
 			  while (a != 0 && b != 0) {
 				  if (a >= b) {
-					  a %= b;
+					a %= b;
 		          
 				  } else {
 		        	  b %= a;
-		            }
-				  nod = a + b;
-		      }
+		           	  }
+				nod = a + b;
+		      	  }
 		      
 			  return nod;				  
 		  
