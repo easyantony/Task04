@@ -13,8 +13,8 @@ public class Task03 {
 		
 		System.out.println("a = " + a + "\n" 
 				  +"b = " + b + "\n"
-				  +"Êîëè÷åñòâî öèôð â ÷èñëå a = " + counta + "\n"
-				  +"Êîëè÷åñòâî öèôð â ÷èñëå b = " + countb);
+				  +"ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ†Ð¸Ñ„Ñ€ Ð² Ñ‡Ð¸ÑÐ»Ðµ a = " + counta + "\n"
+				  +"ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ†Ð¸Ñ„Ñ€ Ð² Ñ‡Ð¸ÑÐ»Ðµ b = " + countb);
 		
 		if (counta > countb) {
 			System.out.print("a > b");
