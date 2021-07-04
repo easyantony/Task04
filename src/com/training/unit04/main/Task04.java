@@ -10,7 +10,7 @@ public class Task04 {
 		
 		Random rand = new Random();
 		
-		System.out.println("Исходный массив: ");
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: ");
 		
 		for (int i = 0; i < D.length; i ++) {
 			D [i] = rand.nextInt(1000);
@@ -31,7 +31,7 @@ public class Task04 {
 			
 			 if(i == 0) { 
 				 sum1 = D [i] + D[i + 1] + D[i + 2]; 
-				 System.out.println("Сумма чисел с 1 по 3 = " + sum1);							  			
+				 System.out.println("РЎСѓРјРјР° С‡РёСЃРµР» СЃ 1 РїРѕ 3 = " + sum1);							  			
 			 }			 	
 		}
 		return sum1;				
@@ -44,7 +44,7 @@ public class Task04 {
 				
 			if (i == 2) { 
 				sum2 = D [i] + D[i + 1] + D[i + 2];
-				System.out.println("Сумма чисел с 3 по 5 = " + sum2);					
+				System.out.println("РЎСѓРјРјР° С‡РёСЃРµР» СЃ 3 РїРѕ 5 = " + sum2);					
 			}
 		}
 		return sum2;
@@ -58,7 +58,7 @@ public class Task04 {
 	
 			if (i == 3) {
 				sum3 = D [i] + D[i + 1] + D[i + 2];
-				System.out.println("Сумма чисел с 4 по 6 = " + sum3);
+				System.out.println("РЎСѓРјРјР° С‡РёСЃРµР» СЃ 4 РїРѕ 6 = " + sum3);
 					
 			}
 				
